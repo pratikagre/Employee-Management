@@ -97,10 +97,8 @@ const Footer = () => {
                 agrepratik150@gmail.com
               </Link>
             </Typography>
-            <Typography variant="body2">Phone: +1 (123) 456-7890</Typography>
-            <Typography variant="body2" sx={{ marginTop: '0.5rem' }}>
-              Address: 123 Employee St, Suite 100, New York, NY 10001
-            </Typography>
+            <Typography variant="body2">Phone:9921980102</Typography>
+           
           </Grid>
         </Grid>
 

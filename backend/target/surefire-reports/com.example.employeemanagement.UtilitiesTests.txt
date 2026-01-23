@@ -1,4 +1,104 @@
 -------------------------------------------------------------------------------
 Test set: com.example.employeemanagement.UtilitiesTests
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 s - in com.example.employeemanagement.UtilitiesTests
+Tests run: 10, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 0.081 s <<< FAILURE! - in com.example.employeemanagement.UtilitiesTests
+shouldSaveDepartment  Time elapsed: 0.006 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not prepare statement; SQL [insert into departments (name) values (?)]; nested exception is org.hibernate.exception.SQLGrammarException: could not prepare statement
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+Caused by: org.hibernate.exception.SQLGrammarException: could not prepare statement
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: 
+Table "DEPARTMENTS" not found (this database is empty); SQL statement:
+insert into departments (name) values (?) [42104-214]
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+
+shouldDeleteEmployee  Time elapsed: 0.006 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not prepare statement; SQL [insert into departments (name) values (?)]; nested exception is org.hibernate.exception.SQLGrammarException: could not prepare statement
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+Caused by: org.hibernate.exception.SQLGrammarException: could not prepare statement
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: 
+Table "DEPARTMENTS" not found (this database is empty); SQL statement:
+insert into departments (name) values (?) [42104-214]
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+
+shouldFindEmployeesByDepartmentName  Time elapsed: 0.008 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not prepare statement; SQL [insert into departments (name) values (?)]; nested exception is org.hibernate.exception.SQLGrammarException: could not prepare statement
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+Caused by: org.hibernate.exception.SQLGrammarException: could not prepare statement
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: 
+Table "DEPARTMENTS" not found (this database is empty); SQL statement:
+insert into departments (name) values (?) [42104-214]
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+
+shouldSaveEmployee  Time elapsed: 0.006 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not prepare statement; SQL [insert into departments (name) values (?)]; nested exception is org.hibernate.exception.SQLGrammarException: could not prepare statement
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+Caused by: org.hibernate.exception.SQLGrammarException: could not prepare statement
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: 
+Table "DEPARTMENTS" not found (this database is empty); SQL statement:
+insert into departments (name) values (?) [42104-214]
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+
+shouldFindEmployeeById  Time elapsed: 0.005 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not prepare statement; SQL [insert into departments (name) values (?)]; nested exception is org.hibernate.exception.SQLGrammarException: could not prepare statement
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+Caused by: org.hibernate.exception.SQLGrammarException: could not prepare statement
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: 
+Table "DEPARTMENTS" not found (this database is empty); SQL statement:
+insert into departments (name) values (?) [42104-214]
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+
+shouldFindEmployeesByDepartmentId  Time elapsed: 0.007 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not prepare statement; SQL [insert into departments (name) values (?)]; nested exception is org.hibernate.exception.SQLGrammarException: could not prepare statement
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+Caused by: org.hibernate.exception.SQLGrammarException: could not prepare statement
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: 
+Table "DEPARTMENTS" not found (this database is empty); SQL statement:
+insert into departments (name) values (?) [42104-214]
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+
+shouldFindDepartmentById  Time elapsed: 0.009 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not prepare statement; SQL [insert into departments (name) values (?)]; nested exception is org.hibernate.exception.SQLGrammarException: could not prepare statement
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+Caused by: org.hibernate.exception.SQLGrammarException: could not prepare statement
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: 
+Table "DEPARTMENTS" not found (this database is empty); SQL statement:
+insert into departments (name) values (?) [42104-214]
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+
+shouldDeleteDepartment  Time elapsed: 0.007 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not prepare statement; SQL [insert into departments (name) values (?)]; nested exception is org.hibernate.exception.SQLGrammarException: could not prepare statement
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+Caused by: org.hibernate.exception.SQLGrammarException: could not prepare statement
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: 
+Table "DEPARTMENTS" not found (this database is empty); SQL statement:
+insert into departments (name) values (?) [42104-214]
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+
+shouldFindAllDepartments  Time elapsed: 0.009 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not prepare statement; SQL [insert into departments (name) values (?)]; nested exception is org.hibernate.exception.SQLGrammarException: could not prepare statement
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+Caused by: org.hibernate.exception.SQLGrammarException: could not prepare statement
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: 
+Table "DEPARTMENTS" not found (this database is empty); SQL statement:
+insert into departments (name) values (?) [42104-214]
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+
+shouldUpdateDepartment  Time elapsed: 0.006 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not prepare statement; SQL [insert into departments (name) values (?)]; nested exception is org.hibernate.exception.SQLGrammarException: could not prepare statement
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+Caused by: org.hibernate.exception.SQLGrammarException: could not prepare statement
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: 
+Table "DEPARTMENTS" not found (this database is empty); SQL statement:
+insert into departments (name) values (?) [42104-214]
+	at com.example.employeemanagement.UtilitiesTests.setUp(UtilitiesTests.java:37)
+
